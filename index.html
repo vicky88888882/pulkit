@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PANELPE Community</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(180deg,#0f172a,#111827);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+/* MAIN CONTAINER */
+.container{
+    width:90%;
+    max-width:500px;
+    text-align:center;
+    padding-bottom:120px; /* space for fixed button */
+}
+
+/* LOGO */
+.logo{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.brand{
+    color:#ffb400;
+    font-weight:bold;
+}
+
+/* BADGE */
+.badge{
+    color:#fbbf24;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+/* TITLE */
+h1{
+    font-size:48px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.highlight{
+    color:#ffb400;
+}
+
+/* SUBTITLE */
+.subtitle{
+    color:#d1d5db;
+    margin-bottom:30px;
+    font-size:16px;
+}
+
+/* CARDS */
+.card{
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.card h3{
+    font-size:14px;
+    color:#d1d5db;
+}
+
+.card p{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.yellow{
+    color:#ffcc00;
+    font-size:34px;
+    font-weight:bold;
+}
+
+/* SIGNUP BUTTON */
+.btn{
+    display:block;
+    width:100%;
+    padding:18px;
+    border-radius:15px;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:15px;
+    background:#ffcc00;
+    color:#111;
+}
+
+/* FIXED TELEGRAM BUTTON */
+.telegram{
+    position:fixed;
+    bottom:20px;
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+    max-width:500px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    padding:18px;
+    border-radius:15px;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    z-index:999;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+    animation:bounce 1.8s infinite;
+}
+
+/* ANIMATION */
+@keyframes bounce {
+    0%,100%{ transform:translateX(-50%) translateY(0); }
+    50%{ transform:translateX(-50%) translateY(-8px); }
+}
+
+/* FOOTER */
+.footer{
+    margin-top:20px;
+    color:#9ca3af;
+    font-size:13px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        🟧 <span class="brand">PANELPE</span>
+    </div>
+
+    <div class="badge">
+        Trusted community platform
+    </div>
+
+    <h1>
+        Join the <span class="highlight">PANELPE</span><br>
+        community
+    </h1>
+
+    <p class="subtitle">
+        Connect with PANELPE members, get the latest updates,
+        and stay informed through our official channels.
+    </p>
+
+    <div class="card">
+        <div>
+            <h3>COMMUNITY</h3>
+            <p>Active support group</p>
+        </div>
+        <div class="yellow">24/7</div>
+    </div>
+
+    <div class="card">
+        <div>
+            <h3>UPDATES</h3>
+            <p>News & Events</p>
+        </div>
+        <div class="yellow">Daily</div>
+    </div>
+
+    <a href="#" class="btn">
+        Sign Up →
+    </a>
+
+    <div class="footer">
+        Privacy Policy
+    </div>
+
+</div>
+
+<!-- FIXED TELEGRAM BUTTON -->
+<a href="https://https://t.me/+Z9wCRjAu7yplZjA1" class="telegram">
+    📢 Join Telegram
+</a>
+
+</body>
+</html>
